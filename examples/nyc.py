@@ -28,7 +28,7 @@ end_date = datetime(2024, 3, 27)
 hourly_data = simulator.generate_timeseries(
     start_date=start_date,
     end_date=end_date,
-    freq='1H'
+    freq='1h'
 )
 
 # Print first few rows
